@@ -33,6 +33,8 @@ echo 5.Disable Hibernate Mode
 echo.
 echo 6.Attempt to Fix Common Disk Problems and etc...
 echo.
+echo 7.Enable Windows Godmode
+echo.
 echo 0.Exit (At Anytime if you want to cancel a proccess press CTRL+C)
 echo.
 set /p choice="Choice: "
@@ -140,7 +142,7 @@ goto Main
 :5
 cls
 echo Disabling Hibernate Mode...
-powercfg.exe /hibernate on >nul 2>nul
+powercfg.exe /hibernate off >nul 2>nul
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSettings" /V ShowHibernateOption /T REG_DWORD /F /D 0 >nul 2>nul
 PING -n 5 127.0.0.1>nul
 cls
@@ -164,3 +166,13 @@ echo.
 pause
 goto Main
 
+:7
+cls
+echo Enabling Godmode...
+mkdir %userprofile%\desktop\GodMode.{ED7BA470-8E54-465E-825C-99712043E01C} >nul 2>nul
+PING -n 5 127.0.0.1>nul
+cls
+echo Godmode Enabled Check Your Desktop For A Control Panel Alike Icon With No Name !
+echo.
+pause
+goto Main
