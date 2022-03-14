@@ -4,7 +4,7 @@
 Added:<br>
 7.Enable Windows Godmode
 <br><br>Removed:<br>
-Nothing<br>
+Nothing
 <br><br>Support:<br>
 Windows 10 & 11
 
@@ -18,6 +18,6 @@ Added:<br>
 6.Attempt to Fix Common Disk Problems and etc...<br>
 0.Exit (At Anytime if you want to cancel a proccess press CTRL+C)
 <br><br>Removed:<br>
-Nothing<br>
+Nothing
 <br><br>Support:<br>
 Windows 10 & 11
