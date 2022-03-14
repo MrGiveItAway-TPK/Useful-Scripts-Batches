@@ -21,3 +21,6 @@ Added:<br>
 Nothing
 <br><br>Support:<br>
 Windows 10 & 11
+
+## Inspired by:<br><br>
+Mousa Alsayeh
