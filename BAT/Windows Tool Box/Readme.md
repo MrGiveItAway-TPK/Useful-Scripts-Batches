@@ -23,4 +23,4 @@ Nothing
 Windows 10 & 11
 
 ## Inspired by: Mousa Alsayeh
-## Done by: Munes Bani Fawaz
+## Done by: Munes Bani Fawaz (MrGiveItAway-TPK)
