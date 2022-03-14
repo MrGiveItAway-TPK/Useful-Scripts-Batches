@@ -1,5 +1,13 @@
 # Windows Tool Box Changelog
-Version 1:<br><br>
+
+##Version 1.1:<br><br>
+Added:<br>
+7.Enable Windows Godmode<br><br>
+Removed:<br>
+-Nothing<br>
+-Currently Supporting Windows 10 & 11
+
+##Version 1:<br><br>
 1.Clear Temps<br>
 2.Reset Internet (Restart Required)<br>
 3.Attempt to Fix Common Windows Problems or Bad Media / Installation Files<br>
